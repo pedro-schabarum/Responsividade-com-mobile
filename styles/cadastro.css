@@ -36,3 +36,22 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+@media screen and (min-width: 1024px){
+    .cadastro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+    }
+    .cadastro__discricao{
+        margin-right: 1em;
+        width: 30%;
+    }
+    .cadastro__titulo{
+        font-size: 24px;
+    }
+    .cadastro__email{
+        width: 30%;
+    }
+}

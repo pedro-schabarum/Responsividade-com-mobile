@@ -57,6 +57,10 @@
     display: none;
 }
 
+.container__texto{
+    display: none;
+}
+
 @media screen and (min-width: 1024px){
     .container_imagem-trasnparente, .cabecalho__menu-hamburger{
         display: none;
@@ -96,5 +100,27 @@
 
     .opcoes__botao{
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .container__link{
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: var(--preto);
+        display: flex;
+        align-items: center;
+    }
+
+    .cabecalho{
+        padding: 0 2em;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+
+    .container__texto{
+        display: block;
     }
 }
